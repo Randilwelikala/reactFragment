@@ -1,9 +1,11 @@
+import {Fragment } from "react";
 const ListItems = ({items}) => {
     return(
-        <div>
+        <Fragment>
             {items.map((items,index)=>(<li key={index}>{items}</li>))}
 
-        </div>
+            
+        </Fragment>
     )
 }
 

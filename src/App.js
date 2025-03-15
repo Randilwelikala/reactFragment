@@ -22,6 +22,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <OrderedList itemList = {nameList}/>
+        <OrderedList itemList = {nameList}/>
         
       </header>
     </div>
