@@ -3,7 +3,7 @@ import ListItems from "./ListItems"
 const OrderedList = ({itemList}) => {
     return(
         <ol>
-            <ListItems items ={itemlist}/>
+            <ListItems items ={itemList}/>
 
         </ol>
     )

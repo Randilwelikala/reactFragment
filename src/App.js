@@ -1,9 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+// import ListItem from './components/listItem';
 
 function App() {
 
-  const nameList [
+  const nameList = [
     "Alice",
     "Bob",
     "Charlie",
