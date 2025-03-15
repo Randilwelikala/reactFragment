@@ -1,11 +1,10 @@
-import {Fragment } from "react";
+import React from "react";
+
 const ListItems = ({items}) => {
     return(
-        <Fragment>
-            {items.map((items,index)=>(<li key={index}>{items}</li>))}
-
-            
-        </Fragment>
+        <React.Fragment>
+            {items.map((items,index)=>(<li key={index}>{items}</li>))}            
+        </React.Fragment>
     )
 }
 
