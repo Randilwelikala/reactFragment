@@ -2,10 +2,10 @@ import ListItems from "./ListItems"
 
 const UnorderedList = ({itemList}) => {
     return(
-        <ol>
-            <ListItems items ={itemlist}/>
+        <ul>
+            <ListItems items ={itemList}/>
 
-        </ol>
+        </ul>
     )
 }
 

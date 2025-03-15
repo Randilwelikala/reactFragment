@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 // import ListItem from './components/listItem';
+import OrderedList from './components/OrderedList';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <OrderedList itemList = {nameList}/>
         
       </header>
     </div>
